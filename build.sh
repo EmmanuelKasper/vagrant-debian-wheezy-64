@@ -20,8 +20,8 @@ set -o errexit
 
 # Configurations
 BOX="debian-wheezy-64"
-ISO_URL="http://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-7.3.0-amd64-netinst.iso"
-ISO_MD5="72473e8a5e65b61acc7efde90d9f71d1"
+ISO_URL="http://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-7.4.0-amd64-netinst.iso"
+ISO_MD5="e7e9433973f082a297793c3c5010b2c5"
 
 # location, location, location
 FOLDER_BASE=`pwd`
@@ -209,10 +209,6 @@ if ! VBoxManage showvminfo "${BOX}" >/dev/null 2>/dev/null; then
 #    --medium "${ISO_GUESTADDITIONS}"
 
 #  VBoxManage startvm "${BOX}"
-
-#  # get private key
-#  curl --output "${FOLDER_BUILD}/id_rsa" "https://raw.github.com/mitchellh/vagrant/master/keys/vagrant"
-#  chmod 600 "${FOLDER_BUILD}/id_rsa"
 
 #  # install virtualbox guest additions
 #  sleep 10
