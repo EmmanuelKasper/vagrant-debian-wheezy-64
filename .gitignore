@@ -5,3 +5,5 @@ iso/
 test.sh
 deploy.sh
 .DS_Store
+MD5SUM
+MD5SUM.gpg
