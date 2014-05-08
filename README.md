@@ -16,6 +16,8 @@ The latest GPG signed box produced by this script is available at http://subsole
  * mkisofs
  * 7zip
 
+On a Debian / Ubuntu system your can install those with `apt-get install p7zip genisoimage virtualbox` and get vagrant from vagrantup.com as debian package.
+
 ## Usage on OSX
 
     ./build.sh
