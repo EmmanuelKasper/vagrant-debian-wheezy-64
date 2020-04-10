@@ -2,7 +2,7 @@
 The building of Vanilla Debian debian boxes, has moved to Debian, and Packer for the build process.
 If you want to build your own Vanilla Debian debian boxes, install `packer`and clone the following repository:
 
-    git clone git://anonscm.debian.org/cloud/debian-vm-templates.git
+    git clone https://salsa.debian.org/cloud-team/vagrant-boxes
 
 
 ## About
